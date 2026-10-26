@@ -1,56 +1,83 @@
-<h1 align="left">Hi, I'm Murali 👋</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:7f00ff,100:00d4ff&height=200&section=header&text=Hi,%20I'm%20Murali&fontSize=52&fontColor=ffffff&fontAlignY=36&animation=twinkling&desc=Quant%20%E2%80%A2%20Data%20Scientist%20%E2%80%A2%20Linux%20Tinkerer&descAlignY=58&descSize=18" alt="header" />
 
-**Quant & data scientist** — I build systematic trading research, data pipelines, and the Linux tooling I use every day.
+<p align="center">
+  <a href="https://github.com/Murali-lns">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&width=640&lines=Building+systematic+trading+research+%F0%9F%93%88;Backtests%2C+ML+rankings+%26+signal+pipelines;Writing+Omarchy+plugins+%26+themes+%F0%9F%90%A7;Tinkering+with+local+AI+agents+%F0%9F%A4%96;Learning+Rust+one+borrow+error+at+a+time+%F0%9F%A6%80" alt="typing intro" />
+  </a>
+</p>
 
-- 📈 Working on: quantitative trading signals, backtesting, and ML ranking models
-- 🐧 Daily driver: Arch / Omarchy on Hyprland — I write shell plugins and themes for it
-- 🤖 Tinkering with: local AI agents and the tools around them
-- ⚡ Currently learning: Rust (native desktop apps with egui)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,rust,ts,js,qt,postgres,arch,linux,git,vscode&theme=dark" alt="skills" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
+  <img src="https://img.shields.io/badge/Hyprland-00A4CC?style=for-the-badge&logo=hyprland&logoColor=white" alt="Hyprland" />
+</p>
 
-### 🛠️ Stack
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Qt/QML](https://img.shields.io/badge/QML-41CD52?style=flat-square&logo=qt&logoColor=white)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white)
+### ⚡ About me
+
+```python
+class Murali:
+    role      = "Quant & Data Scientist"
+    focus     = ["trading signals", "backtesting", "ML ranking models"]
+    daily_os  = "Arch / Omarchy on Hyprland"
+    hobbies   = ["Linux ricing", "AI agents", "anime themes"]
+    learning  = "Rust 🦀"
+```
 
 ### 🚀 Featured projects
 
-**Linux & desktop tooling**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Project | What it does |
-|---|---|
-| [omarchy-agents-usage](https://github.com/Murali-lns/omarchy-agents-usage) | Native Omarchy bar widget showing local AI-agent usage and model stats |
-| [omarchy-task-manager](https://github.com/Murali-lns/omarchy-task-manager) | Windows-style task manager for the Omarchy shell |
-| [hermes-pr-studio](https://github.com/Murali-lns/hermes-pr-studio) | GitHub pull requests inside Hermes Desktop — inbox, diffs, inline review |
-| [Naruto](https://github.com/Murali-lns/omarchy-naruto-shinobi-theme) · [Bleach](https://github.com/Murali-lns/omarchy-bleach-bankai-theme) themes | Portable anime-inspired themes for Omarchy 4 |
+**🐧 Linux & desktop tooling**
 
-**Data analysis**
+- [**omarchy-agents-usage**](https://github.com/Murali-lns/omarchy-agents-usage) — bar widget for local AI-agent usage & model stats
+- [**omarchy-task-manager**](https://github.com/Murali-lns/omarchy-task-manager) — Windows-style task manager for Omarchy
+- [**hermes-pr-studio**](https://github.com/Murali-lns/hermes-pr-studio) — GitHub PRs inside Hermes Desktop
+- [**Naruto**](https://github.com/Murali-lns/omarchy-naruto-shinobi-theme) · [**Bleach**](https://github.com/Murali-lns/omarchy-bleach-bankai-theme) — anime themes for Omarchy 4
 
-| Project | What it does |
-|---|---|
-| [Chocolate-Sales-Dashboard](https://github.com/Murali-lns/Chocolate-Sales-Dashboard) | Interactive Power BI dashboard with drill-through and time intelligence |
-| [Sales-Analysis-Sql](https://github.com/Murali-lns/Sales-Analysis-Sql) | Cleaning and analysing sales data in SQL |
-| [Sales-Analysis-Excel](https://github.com/Murali-lns/Sales-Analysis-Excel) | Sales analysis and reporting in Excel |
-| [Python-Project](https://github.com/Murali-lns/Python-Project) | Exploratory data analysis with pandas |
+</td>
+<td width="50%" valign="top">
 
-**Just for fun**
+**📊 Data analysis**
 
-| Project | What it does |
-|---|---|
-| [cyberflap-game](https://github.com/Murali-lns/cyberflap-game) | Flappy Bird remake — themes, skins, Web Audio synth, particles. Vanilla JS |
+- [**Chocolate-Sales-Dashboard**](https://github.com/Murali-lns/Chocolate-Sales-Dashboard) — Power BI, drill-through, time intelligence
+- [**Sales-Analysis-Sql**](https://github.com/Murali-lns/Sales-Analysis-Sql) — cleaning & analysing sales data
+- [**Sales-Analysis-Excel**](https://github.com/Murali-lns/Sales-Analysis-Excel) — Excel sales reporting
+- [**Python-Project**](https://github.com/Murali-lns/Python-Project) — EDA with pandas
 
-### 📊 GitHub stats
+**🎮 Just for fun**
 
-<p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Murali-lns&show_icons=true&hide_border=true&theme=github_dark" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Murali-lns&layout=compact&hide_border=true&theme=github_dark" alt="Top languages" />
+- [**cyberflap-game**](https://github.com/Murali-lns/cyberflap-game) — neon Flappy Bird with synth audio & particles
+
+</td>
+</tr>
+</table>
+
+### 📊 Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Murali-lns&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Murali-lns&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Murali-lns&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
-<img src="https://streak-stats.demolab.com?user=Murali-lns&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+### 🐍 Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Murali-lns/Murali-lns/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Murali-lns/Murali-lns/output/snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Murali-lns/Murali-lns/output/snake-dark.svg" />
+  </picture>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:7f00ff,100:0f0c29&height=120&section=footer" alt="footer" />
