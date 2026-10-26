@@ -27,10 +27,18 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cd dist
-          git init -q -b output
+          # dist/ is root-owned (created by the Docker action), so publish from a fresh dir.
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          if git ls-remote --exit-code --heads "$remote" output >/dev/null 2>&1; then
+            git clone -q --depth 1 --branch output "$remote" publish
+          else
+            mkdir publish && git -C publish init -q -b output && git -C publish remote add origin "$remote"
+          fi
+          cp dist/snake.svg dist/snake-dark.svg publish/
+          cd publish
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add snake.svg snake-dark.svg
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
           git commit -qm "Update contribution snake"
-          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" output
+          git push -q origin output
